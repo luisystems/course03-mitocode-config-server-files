@@ -8,6 +8,15 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka
 
+# Configuracion de MongoDB con SpringBoot 3
+spring:
+  data:
+    mongodb:
+      uri: mongodb://mitocode:miticode@localhost:27017/mitocodedb?authSource=admin
+
+encrypt:
+  key: luis-rh-key
+
 # Configuracion de MongoDB con SpringBoot 2
 # spring:
   # data:
@@ -19,12 +28,3 @@ eureka:
       # database: miticodedb
       ## uri: mongodb://mitocode:miticode@localhost:27017
       # authentication-database: admin
-
-# Configuracion de MongoDB con SpringBoot 3
-spring:
-  data:
-    mongodb:
-      uri: mongodb://mitocode:miticode@localhost:27017/mitocodedb?authSource=admin
-
-encrypt:
-  key: luis-rh-key
