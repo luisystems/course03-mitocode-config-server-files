@@ -12,19 +12,19 @@ eureka:
 spring:
   data:
     mongodb:
-      uri: mongodb://mitocode:miticode@localhost:27017/mitocodedb?authSource=admin
+      uri: mongodb://mitocode:miticode@localhost:27017/mitocodedb?authSource=admin&retryWrites=true&w=majority
 
 encrypt:
   key: luis-rh-key
 
 # Configuracion de MongoDB con SpringBoot 2
-spring:
-  data:
-    mongodb:
-      host: localhost
-      port: 27017
-      username: miticode
-      password: miticode
-      database: miticodedb
-      # uri: mongodb://mitocode:miticode@localhost:27017
-      authentication-database: admin
+# spring:
+  # data:
+    # mongodb:
+      # host: localhost
+      # port: 27017
+      # username: miticode
+      # password: miticode
+      # database: miticodedb
+      ## uri: mongodb://mitocode:miticode@localhost:27017
+      #authentication-database: admin
