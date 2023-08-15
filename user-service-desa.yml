@@ -8,5 +8,16 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka
 
+spring:
+  data:
+    mongodb:
+      # host: localhost
+      # port: 27017
+      # username: miticode
+      # password: miticode
+      database: miticodedb
+      uri: mongodb://mitocode:miticode@localhost:27017
+      authentication-database: admin
+
 encrypt:
   key: luis-rh-key
