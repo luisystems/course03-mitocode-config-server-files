@@ -8,7 +8,7 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka
 
-# Configuracion de MongoDB con SpringBoot 3
+### Configuracion de MongoDB con SpringBoot 3
 spring:
   data:
     mongodb:
