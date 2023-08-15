@@ -11,8 +11,8 @@ eureka:
 spring:
   data:
     mongodb:
-      # host: localhost
-      # port: 27017
+      host: localhost
+      port: 27017
       # username: miticode
       # password: miticode
       database: miticodedb
