@@ -9,10 +9,10 @@ eureka:
       defaultZone: http://localhost:8761/eureka
 
 ### Configuracion de MongoDB con SpringBoot 3
-# spring:
-  # data:
-    # mongodb:
-      # uri: mongodb://mitocode:miticode@localhost:27017/mitocodedb?authSource=admin
+spring:
+  data:
+    mongodb:
+      uri: mongodb://mitocode:miticode@localhost:27017/mitocodedb?authSource=admin
 
 encrypt:
   key: luis-rh-key
