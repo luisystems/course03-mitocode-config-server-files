@@ -13,10 +13,10 @@ spring:
     mongodb:
       host: localhost
       port: 27017
-      # username: miticode
-      # password: miticode
+      username: miticode
+      password: miticode
       database: miticodedb
-      uri: mongodb://mitocode:miticode@localhost:27017
+      # uri: mongodb://mitocode:miticode@localhost:27017
       authentication-database: admin
 
 encrypt:
