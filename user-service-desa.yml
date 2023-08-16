@@ -12,8 +12,7 @@ eureka:
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27017/mitocodedb
-      # uri: mongodb://mitocode:miticode@localhost:27017/mitocodedb?authSource=admin
+      uri: mongodb://mitocode:mitocode@localhost:27017/mitocodedb?authSource=admin
 
 encrypt:
   key: luis-rh-key
